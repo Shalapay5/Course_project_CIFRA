@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <category id="smartphones" title="Смартфоны">
+        <product>
+            <name>Apple iPhone 15 Pro</name>
+            <brand>apple</brand>
+            <cost>4200</cost>
+            <img>img/Smartphone.png</img>
+            <specs>
+                <item>Dual Sim (eSIM), 5G, Wi-Fi 6E</item>
+                <item>6.1 inches, LTPO Super Retina</item>
+                <item>Apple A17 Pro (3 nm)</item>
+                <item>48 MP + 12 MP + 12 MP</item>
+                <item>8 GB RAM, 256 GB Storage</item>
+                <item>USB Type-C 3.0</item>
+                <item>3274 mAh Battery</item>
+                <item>iOS 17</item>
+            </specs>
+        </product>
+        <product>
+            <name>Apple iPhone 14</name>
+            <brand>apple</brand>
+            <cost>2800</cost>
+            <img>img/iphone14.png</img>
+            <specs>
+                <item>Dual Sim, 5G, Wi-Fi 6, NFC</item>
+                <item>6.1 inches, Super Retina XDR</item>
+                <item>Apple A15 Bionic (5 nm)</item>
+                <item>12 MP + 12 MP Dual Camera</item>
+                <item>6 GB RAM, 128 GB Storage</item>
+                <item>Lightning Port</item>
+                <item>3279 mAh Battery</item>
+                <item>iOS 16</item>
+            </specs>
+        </product>
+
+        <product>
+            <name>Samsung Galaxy S24</name>
+            <brand>samsung</brand>
+            <cost>4800</cost>
+            <img>img/galaxy_s24.png</img>
+            <specs>
+                <item>Dual Sim, 5G, Wi-Fi 7, S-Pen</item>
+                <item>6.8 inches, Dynamic AMOLED 2X</item>
+                <item>Snapdragon 8 Gen 3</item>
+                <item>200 MP + 50 MP + 12 MP + 10 MP</item>
+                <item>12 GB RAM, 512 GB Storage</item>
+                <item>No Memory Card Slot</item>
+                <item>5000 mAh Battery, 45W</item>
+                <item>Android 14</item>
+            </specs>
+        </product>
+        <product>
+            <name>Samsung Galaxy A54</name>
+            <brand>samsung</brand>
+            <cost>1200</cost>
+            <img>img/galaxy_a54.png</img>
+            <specs>
+                <item>Dual Sim, 5G, Wi-Fi 6, NFC</item>
+                <item>6.4 inches, Super AMOLED 120Hz</item>
+                <item>Exynos 1380 (5 nm)</item>
+                <item>50 MP + 12 MP + 5 MP</item>
+                <item>8 GB RAM, 128 GB Storage</item>
+                <item>MicroSD Slot Supported</item>
+                <item>5000 mAh Battery, 25W</item>
+                <item>Android 13</item>
+            </specs>
+        </product>
+
+        <product>
+            <name>Xiaomi 14 Pro</name>
+            <brand>xiaomi</brand>
+            <cost>3100</cost>
+            <img>img/xiaomi_14.png</img>
+            <specs>
+                <item>Dual Sim, 5G, Wi-Fi 7, NFC</item>
+                <item>6.73 inches, LTPO AMOLED</item>
+                <item>Snapdragon 8 Gen 3</item>
+                <item>50 MP + 50 MP + 50 MP Leica</item>
+                <item>16 GB RAM, 512 GB Storage</item>
+                <item>120W HyperCharge</item>
+                <item>4880 mAh Battery</item>
+                <item>Xiaomi HyperOS</item>
+            </specs>
+        </product>
+        <product>
+            <name>Xiaomi Note 13</name>
+            <brand>xiaomi</brand>
+            <cost>1100</cost>
+            <img>img/xiaomi_note13.png</img>
+            <specs>
+                <item>Dual Sim, 5G, Wi-Fi 5, NFC</item>
+                <item>6.67 inches, AMOLED 120Hz</item>
+                <item>Snapdragon 7s Gen 2</item>
+                <item>200 MP + 8 MP + 2 MP</item>
+                <item>8 GB RAM, 256 GB Storage</item>
+                <item>67W Wired Charging</item>
+                <item>5100 mAh Battery</item>
+                <item>Android 13</item>
+            </specs>
+        </product>
+
+    </category>
+
+    <category id="laptops" title="Ноутбуки">
+        <product>
+            <name>Apple MacBook Air</name>
+            <brand>apple</brand>
+            <cost>3800</cost>
+            <img>img/macbook_air.png</img>
+            <specs>
+                <item>Apple M2 Chip, 8-core CPU</item>
+                <item>13.6-inch Liquid Retina</item>
+                <item>8GB Unified Memory</item>
+                <item>256GB SSD Storage</item>
+                <item>Backlit Magic Keyboard</item>
+                <item>1080p FaceTime HD Camera</item>
+                <item>MagSafe 3 Charging Port</item>
+                <item>macOS Sonoma</item>
+            </specs>
+        </product>
+
+        <product>
+            <name>Apple MacBook Pro</name>
+            <brand>apple</brand>
+            <cost>6200</cost>
+            <img>img/Notebook.png</img>
+            <specs>
+                <item>Apple M3 Chip, 10-core GPU</item>
+                <item>14.2-inch Liquid Retina XDR</item>
+                <item>16GB Unified Memory</item>
+                <item>512GB SSD Storage</item>
+                <item>ProMotion 120Hz Display</item>
+                <item>HDMI, SDXC Card Slot</item>
+                <item>Up to 22 hours battery</item>
+                <item>macOS Sonoma</item>
+            </specs>
+        </product>
+
+        <product>
+            <name>Samsung Book3</name>
+            <brand>samsung</brand>
+            <cost>4500</cost>
+            <img>img/samsung_galaxybook3.png</img>
+            <specs>
+                <item>Intel Core i7-1360P</item>
+                <item>14-inch 3K Dynamic AMOLED</item>
+                <item>16GB LPDDR5 RAM</item>
+                <item>512GB NVMe SSD</item>
+                <item>Intel Iris Xe Graphics</item>
+                <item>Quad Speaker System</item>
+                <item>FHD 1080p Camera</item>
+                <item>Windows 11 Home</item>
+            </specs>
+        </product>
+        <product>
+            <name>Samsung Book2 Go</name>
+            <brand>samsung</brand>
+            <cost>1900</cost>
+            <img>img/samsung_galaxybook2.png</img>
+            <specs>
+                <item>Snapdragon 7c Gen 2</item>
+                <item>14-inch FHD LED Display</item>
+                <item>4GB RAM, 128GB Storage</item>
+                <item>Qualcomm Adreno GPU</item>
+                <item>Wi-Fi 6E Support</item>
+                <item>180-degree Hinge</item>
+                <item>Long-lasting Battery</item>
+                <item>Windows 11 Home (S mode)</item>
+            </specs>
+        </product>
+
+        <product>
+            <name>Xiaomi Redmibook 15</name>
+            <brand>xiaomi</brand>
+            <cost>2100</cost>
+            <img>img/xiaomi_redmibook15.png</img>
+            <specs>
+                <item>Intel Core i5-11300H</item>
+                <item>15.6-inch Full HD Display</item>
+                <item>8GB DDR4 RAM</item>
+                <item>512GB SSD Storage</item>
+                <item>Intel Iris Xe Graphics</item>
+                <item>Dual 2W Speakers</item>
+                <item>Full-size Keyboard</item>
+                <item>Windows 11 Home</item>
+            </specs>
+        </product>
+        <product>
+            <name>Xiaomi Book Air 13</name>
+            <brand>xiaomi</brand>
+            <cost>3400</cost>
+            <img>img/xiaomi_redmibookair.png</img>
+            <specs>
+                <item>Intel Core i5-1230U</item>
+                <item>13.3-inch OLED Touchscreen</item>
+                <item>16GB LPDDR5 RAM</item>
+                <item>512GB SSD Storage</item>
+                <item>2-in-1 Convertible Design</item>
+                <item>Dual Thunderbolt 4 Ports</item>
+                <item>Dolby Vision Support</item>
+                <item>Windows 11 Home</item>
+            </specs>
+        </product>
+    </category>
+
+    <category id="tablets" title="Планшеты">
+        <product>
+            <name>Apple iPad Pro M2</name>
+            <brand>apple</brand>
+            <cost>3200</cost>
+            <img>img/Tablet.png</img>
+            <specs>
+                <item>Apple M2 Chip</item>
+                <item>11-inch Liquid Retina</item>
+                <item>8GB RAM, 128GB Storage</item>
+                <item>Face ID, LiDAR Scanner</item>
+                <item>USB-C (Thunderbolt)</item>
+                <item>Support Apple Pencil 2</item>
+                <item>4-Speaker Audio</item>
+                <item>iPadOS 17</item>
+            </specs>
+        </product>
+        <product>
+            <name>Apple iPad Air</name>
+            <brand>apple</brand>
+            <cost>2400</cost>
+            <img>img/ipad_air.png</img>
+            <specs>
+                <item>Apple M1 Chip</item>
+                <item>10.9-inch Liquid Retina</item>
+                <item>8GB RAM, 64GB Storage</item>
+                <item>Touch ID in Top Button</item>
+                <item>12MP Ultra Wide Front</item>
+                <item>Wi-Fi 6, USB-C</item>
+                <item>Stereo Landscape Speakers</item>
+                <item>iPadOS 17</item>
+            </specs>
+        </product>
+        <product>
+            <name>Samsung Tab S9</name>
+            <brand>samsung</brand>
+            <cost>2900</cost>
+            <img>img/galaxy_tabs9.png</img>
+            <specs>
+                <item>Snapdragon 8 Gen 2</item>
+                <item>11-inch Dynamic AMOLED</item>
+                <item>8GB RAM, 128GB Storage</item>
+                <item>S Pen included (in box)</item>
+                <item>IP68 Water Resistance</item>
+                <item>MicroSD up to 1TB</item>
+                <item>Quad Speakers by AKG</item>
+                <item>Android 13</item>
+            </specs>
+        </product>
+        <product>
+            <name>Samsung Tab A8</name>
+            <brand>samsung</brand>
+            <cost>850</cost>
+            <img>img/galaxy_taba8.png</img>
+            <specs>
+                <item>Unisoc Tiger T618</item>
+                <item>10.5-inch LCD Display</item>
+                <item>4GB RAM, 64GB Storage</item>
+                <item>Quad Speakers with Dolby</item>
+                <item>MicroSD Support</item>
+                <item>Face Unlock</item>
+                <item>7040 mAh Battery</item>
+                <item>Android 11</item>
+            </specs>
+        </product>
+        <product>
+            <name>Xiaomi Pad 6</name>
+            <brand>xiaomi</brand>
+            <cost>1300</cost>
+            <img>img/xiaomi_pad6.png</img>
+            <specs>
+                <item>Snapdragon 870 5G</item>
+                <item>11-inch WQHD+ 144Hz</item>
+                <item>8GB RAM, 256GB Storage</item>
+                <item>Quad Speakers, Dolby Atmos</item>
+                <item>8840 mAh Battery</item>
+                <item>33W Fast Charging</item>
+                <item>Xiaomi HyperOS</item>
+                <item>Aluminum Unibody Design</item>
+            </specs>
+        </product>
+        <product>
+            <name>Xiaomi Redmi Pad SE</name>
+            <brand>xiaomi</brand>
+            <cost>650</cost>
+            <img>img/xiaomi_padse.png</img>
+            <specs>
+                <item>Snapdragon 680 (6nm)</item>
+                <item>11-inch FHD+ 90Hz</item>
+                <item>4GB RAM, 128GB Storage</item>
+                <item>Quad Stereo Speakers</item>
+                <item>8000 mAh Battery</item>
+                <item>MicroSD up to 1TB</item>
+                <item>3.5mm Headphone Jack</item>
+                <item>Android 13</item>
+            </specs>
+        </product>
+    </category>
+
+    <category id="watches" title="Умные часы">
+        <product>
+            <name>Apple Watch Series 9</name>
+            <brand>apple</brand>
+            <cost>1600</cost>
+            <img>img/Smartwatch.png</img>
+            <specs>
+                <item>S9 SiP with 64-bit</item>
+                <item>Always-On Retina OLED</item>
+                <item>Blood Oxygen Sensor</item>
+                <item>ECG App Support</item>
+                <item>Double Tap Gesture</item>
+                <item>Fall and Crash Detection</item>
+                <item>Swimproof (WR50)</item>
+                <item>watchOS 10</item>
+            </specs>
+        </product>
+        <product>
+            <name>Apple Watch SE</name>
+            <brand>apple</brand>
+            <cost>1100</cost>
+            <img>img/apple_watchse.png</img>
+            <specs>
+                <item>S8 SiP Dual-core</item>
+                <item>Retina OLED Display</item>
+                <item>Heart Rate Monitoring</item>
+                <item>Sleep Tracking</item>
+                <item>Emergency SOS</item>
+                <item>Water Resistant 50m</item>
+                <item>Aluminum Case</item>
+                <item>watchOS 10</item>
+            </specs>
+        </product>
+        <product>
+            <name>Samsung Watch6</name>
+            <brand>samsung</brand>
+            <cost>1050</cost>
+            <img>img/samsung_galaxywatch6.png</img>
+            <specs>
+                <item>Exynos W930 Dual-Core</item>
+                <item>Super AMOLED Display</item>
+                <item>BioActive Sensor</item>
+                <item>Sleep Coaching System</item>
+                <item>Sapphire Crystal Glass</item>
+                <item>IP68 and 5ATM Rating</item>
+                <item>Samsung Wallet Support</item>
+                <item>Wear OS 4</item>
+            </specs>
+        </product>
+        <product>
+            <name>Samsung Watch5</name>
+            <brand>samsung</brand>
+            <cost>1300</cost>
+            <img>img/samsung_galaxywatch5.png</img>
+            <specs>
+                <item>Titanium Case Body</item>
+                <item>Advanced Sleep Track</item>
+                <item>BioActive Sensor 3-in-1</item>
+                <item>Route Workout (GPX)</item>
+                <item>Largest Battery in Watch</item>
+                <item>Fast Wireless Charging</item>
+                <item>Sapphire Crystal</item>
+                <item>Wear OS Powered</item>
+            </specs>
+        </product>
+        <product>
+            <name>Xiaomi Watch S3</name>
+            <brand>xiaomi</brand>
+            <cost>600</cost>
+            <img>img/xiaomi_watchs3.png</img>
+            <specs>
+                <item>1.43-inch AMOLED</item>
+                <item>Interchangeable Bezel</item>
+                <item>150+ Sports Modes</item>
+                <item>Dual-band GNSS</item>
+                <item>12-channel Heart Rate</item>
+                <item>Up to 15 days battery</item>
+                <item>5ATM Water Resistance</item>
+                <item>Xiaomi HyperOS</item>
+            </specs>
+        </product>
+        <product>
+            <name>Xiaomi Redmi Watch 4</name>
+            <brand>xiaomi</brand>
+            <cost>380</cost>
+            <img>img/xiaomi_watch4.png</img>
+            <specs>
+                <item>1.97-inch AMOLED</item>
+                <item>Aluminum Alloy Frame</item>
+                <item>SpO2 and Heart Rate</item>
+                <item>Bluetooth Calling</item>
+                <item>Built-in Multi-system GNSS</item>
+                <item>Up to 20 days battery</item>
+                <item>Quick Release Strap</item>
+                <item>Xiaomi HyperOS</item>
+            </specs>
+        </product>
+    </category>
+</catalog>

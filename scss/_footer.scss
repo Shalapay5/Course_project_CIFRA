@@ -1,0 +1,116 @@
+footer{
+    padding: 30px 20px;
+    background: $bg-colour;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: clamp(20px, 10vw, 130px);
+    
+    .footerleft{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .socweb{
+            align-items: center;
+            a:hover{ opacity: 0.6; }
+        }
+        .footerlogo {
+            display: flex;       
+            align-items: center; 
+            gap: 0px;           
+            text-decoration: none;
+            color: #000;
+
+            h1, p {
+                font-family: 'Jaro', sans-serif;
+                font-weight: lighter;
+                font-size: 48px;
+                margin: 0;
+            }
+
+            svg {
+                height: 45px; 
+                width: auto;
+            }
+        }
+
+        p
+        {
+            color: #A1ABB9;
+        }
+
+        div{
+            display: flex;
+            min-width: 0;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+    .upper{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .mainp{
+            color: #A1ABB9;
+        }
+        
+        a{
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        transition: transform 0.2s ease;
+
+        &:hover{ opacity: 0.6; }
+        }
+        
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer{
+        flex-wrap: wrap;
+        gap: clamp(20px, 5vw, 50px);
+        p{
+            font-size: 12px;
+        }
+
+        
+        .footerleft{
+            .footerlogo {
+                h1 {
+                    font-size: 38px;
+                    margin: 0;
+                }
+                svg {
+                    height: 35px; 
+                    width: auto;
+                }
+            }
+            div{
+                gap: 20px;
+            }
+        }
+
+        .upper{
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 426px){
+    footer{
+        flex-direction: column;
+    }
+}

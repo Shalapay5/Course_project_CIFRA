@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sansation", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.models {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 0 40px;
+}
+.models a {
+  color: #000;
+  border-radius: 50px;
+  width: 368px;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 368px;
+  justify-content: center;
+  align-items: center;
+  background: #F3EDED;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.models a:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.models a img {
+  max-width: 70%;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.models a p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.goods {
+  background: #F3EDED;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 740px;
+  gap: 50px;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  padding-bottom: 80px;
+}
+.goods h1 {
+  display: flex;
+  height: 104px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.goods .assort {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  padding: 0 40px;
+}
+.goods .assort .card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 300px;
+  min-width: 0px;
+}
+.goods .assort .card a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 50px;
+}
+.goods .assort .card a:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.goods .assort .card div {
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #fff;
+}
+.goods .assort .card div img {
+  max-width: 80%;
+  height: auto;
+}
+.goods .assort .card p {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+article .top {
+  font-size: 58px;
+  font-weight: 300;
+  padding-left: 50px;
+  max-width: 1080px;
+}
+article section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: clamp(20px, 10vw, 180px);
+  margin: 0 auto;
+  padding: 0 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+article section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 250px;
+  min-width: 0;
+}
+article section div .number {
+  font-size: clamp(60px, 8vw, 128px);
+}
+article section div p {
+  font-size: clamp(18px, 3vw, 48px);
+  text-align: center;
+  font-weight: 300;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .models {
+    gap: 50px;
+  }
+  .models a {
+    border-radius: 25px;
+  }
+  .models a p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .goods {
+    height: 400px;
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  .goods h1 {
+    font-size: 25px;
+    height: 54px;
+  }
+  .goods .assort {
+    gap: 20px;
+    padding: 0 40px;
+  }
+  .goods .assort .card div {
+    border-radius: 25px;
+  }
+  .goods .assort .card p {
+    font-size: 12px;
+  }
+  article {
+    gap: 5px;
+  }
+  article .top {
+    font-size: 30px;
+  }
+  article section div .number {
+    font-size: clamp(40px, 3vw, 128px);
+  }
+  article section div p {
+    font-size: clamp(15px, 2vw, 48px);
+  }
+}
+@media (max-width: 426px) {
+  .models {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .models a {
+    max-width: 300px;
+    width: 100%;
+    flex-direction: column;
+    flex: 0 1 200px;
+  }
+  .goods {
+    gap: 20px;
+    clip-path: none;
+    height: auto;
+    min-height: -moz-min-content;
+    min-height: min-content;
+  }
+  .goods h1 {
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+  }
+  .goods .assort {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .goods .assort .card {
+    flex-direction: column;
+    width: calc(50% - 10px);
+    max-width: 170px;
+    flex: 0 0 auto;
+  }
+  .goods .assort .card div {
+    width: 100%;
+    border-radius: 40px;
+  }
+  .goods .assort .card p {
+    display: none;
+  }
+  article {
+    gap: 15px;
+  }
+  article .top {
+    font-size: 38px;
+    padding-left: 10px;
+  }
+  article section {
+    flex-direction: column;
+    gap: 25px;
+  }
+  article section div {
+    flex: 0 1 auto;
+  }
+  article section div .number {
+    font-size: 96px;
+  }
+  article section div p {
+    font-size: 36px;
+  }
+}
+header {
+  background: #F3EDED;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header nav {
+  height: 23px;
+}
+header nav ul a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  transition: opacity 0.2s ease;
+}
+header nav ul a:hover {
+  opacity: 0.6;
+}
+header nav ul a.active {
+  font-weight: 700;
+}
+header nav ul {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+header button {
+  display: none;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  text-decoration: none;
+  color: #000;
+}
+header .logo p {
+  font-family: "Jaro", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+}
+header .logo svg {
+  height: 45px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  header .logo h1 {
+    font-size: 38px;
+  }
+  header .logo svg {
+    height: 35px;
+  }
+  nav ul {
+    font-size: 12px;
+    gap: 20px;
+  }
+  nav ul li {
+    font-size: clamp(10px, 3vw, 14px);
+  }
+  .models {
+    gap: 50px;
+  }
+  .models a {
+    border-radius: 25px;
+  }
+  .models a p {
+    font-size: 11px;
+    text-align: center;
+  }
+}
+@media (max-width: 426px) {
+  header {
+    flex-direction: row;
+    padding: 10px 20px;
+    gap: 0;
+  }
+  header .logo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  header button {
+    display: block;
+    font-size: 30px;
+    background: none;
+    border: none;
+    margin-left: auto;
+  }
+  header nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+    transition: top 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  header nav.active {
+    top: 0;
+  }
+  header nav .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 30px;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  header nav ul li {
+    margin: 10px 0;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+}
+footer {
+  padding: 30px 20px;
+  background: #F3EDED;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: clamp(20px, 10vw, 130px);
+}
+footer .footerleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footerleft .socweb {
+  align-items: center;
+}
+footer .footerleft .socweb a:hover {
+  opacity: 0.6;
+}
+footer .footerleft .footerlogo {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  text-decoration: none;
+  color: #000;
+}
+footer .footerleft .footerlogo h1 {
+  font-family: "Jaro", sans-serif;
+  font-weight: lighter;
+  font-size: 48px;
+  margin: 0;
+}
+footer .footerleft .footerlogo svg {
+  height: 45px;
+  width: auto;
+}
+footer .footerleft p {
+  color: #A1ABB9;
+}
+footer .footerleft div {
+  display: flex;
+  min-width: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .upper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+footer .upper .mainp {
+  color: #A1ABB9;
+}
+footer .upper a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+footer .upper a:hover {
+  opacity: 0.6;
+}
+footer .upper div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-wrap: wrap;
+    gap: clamp(20px, 5vw, 50px);
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer .footerleft .footerlogo h1 {
+    font-size: 38px;
+    margin: 0;
+  }
+  footer .footerleft .footerlogo svg {
+    height: 35px;
+    width: auto;
+  }
+  footer .footerleft div {
+    gap: 20px;
+  }
+  footer .upper a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 426px) {
+  footer {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

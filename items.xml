@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products_details>
+    <product id="iphone15pro">
+        <name>Apple iPhone 15 Pro</name>
+        <img>img/Smartphone.png</img>
+        <specs>
+            <storage>128/256/512 ГБ</storage>
+            <ram>8 ГБ</ram>
+            <screen_size>6.1 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>2556×1179</resolution>
+            <screen_type>OLED (Super Retina XDR)</screen_type>
+            <cpu_model>Apple A17 Pro</cpu_model>
+            <cpu_freq>3780 МГц</cpu_freq>
+            <cores>6</cores>
+        </specs>
+    </product>
+
+    <product id="iphone14">
+        <name>Apple iPhone 14</name>
+        <img>img/iphone14.png</img>
+        <specs>
+            <storage>128/256 ГБ</storage>
+            <ram>6 ГБ</ram>
+            <screen_size>6.1 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>2532×1170</resolution>
+            <screen_type>OLED</screen_type>
+            <cpu_model>Apple A15 Bionic</cpu_model>
+            <cpu_freq>3230 МГц</cpu_freq>
+            <cores>6</cores>
+        </specs>
+    </product>
+
+    <product id="s24ultra">
+        <name>Samsung Galaxy S24</name>
+        <img>img/galaxy_s24.png</img>
+        <specs>
+            <storage>256/512 ГБ / 1 ТБ</storage>
+            <ram>12 ГБ</ram>
+            <screen_size>6.8 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>3120×1440</resolution>
+            <screen_type>Dynamic AMOLED 2X</screen_type>
+            <cpu_model>Snapdragon 8 Gen 3</cpu_model>
+            <cpu_freq>3300 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="samsung_a54">
+        <name>Samsung Galaxy A54</name>
+        <img>img/galaxy_a54.png</img>
+        <specs>
+            <storage>128/256 ГБ</storage>
+            <ram>8 ГБ</ram>
+            <screen_size>6.4 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>2340×1080</resolution>
+            <screen_type>Super AMOLED</screen_type>
+            <cpu_model>Exynos 1380</cpu_model>
+            <cpu_freq>2400 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="xiaomi14pro">
+        <name>Xiaomi 14 Pro</name>
+        <img>img/xiaomi_14.png</img>
+        <specs>
+            <storage>256/512 ГБ</storage>
+            <ram>12 ГБ</ram>
+            <screen_size>6.73 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>3200×1440</resolution>
+            <screen_type>LTPO AMOLED</screen_type>
+            <cpu_model>Snapdragon 8 Gen 3</cpu_model>
+            <cpu_freq>3300 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="redmi_note13pro">
+        <name>Xiaomi Note 13</name>
+        <img>img/xiaomi_note13.png</img>
+        <specs>
+            <storage>256/512 ГБ</storage>
+            <ram>8/12 ГБ</ram>
+            <screen_size>6.67 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>2712×1220</resolution>
+            <screen_type>AMOLED</screen_type>
+            <cpu_model>Snapdragon 7s Gen 2</cpu_model>
+            <cpu_freq>2400 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="macbook_air_m2">
+        <name>Apple MacBook Air</name>
+        <img>img/macbook_air.png</img>
+        <specs>
+            <storage>256 ГБ SSD</storage>
+            <ram>8 ГБ</ram>
+            <screen_size>13.6 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>2560×1664</resolution>
+            <screen_type>Liquid Retina</screen_type>
+            <cpu_model>Apple M2</cpu_model>
+            <cpu_freq>3490 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="macbook_pro_m3">
+        <name>Apple MacBook Pro</name>
+        <img>img/Notebook.png</img>
+        <specs>
+            <storage>512 ГБ SSD</storage>
+            <ram>8/16 ГБ</ram>
+            <screen_size>14.2 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>3024×1964</resolution>
+            <screen_type>Liquid Retina XDR</screen_type>
+            <cpu_model>Apple M3</cpu_model>
+            <cpu_freq>4050 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="galaxy_book3_pro">
+        <name>Samsung Book3</name>
+        <img>img/samsung_galaxybook3.png</img>
+        <specs>
+            <storage>512 ГБ SSD</storage>
+            <ram>16 ГБ</ram>
+            <screen_size>14.0 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>2880×1800</resolution>
+            <screen_type>Dynamic AMOLED 2X</screen_type>
+            <cpu_model>Intel Core i7-1360P</cpu_model>
+            <cpu_freq>5000 МГц</cpu_freq>
+            <cores>12</cores>
+        </specs>
+    </product>
+
+    <product id="galaxy_book2_go">
+        <name>Samsung Book2 Go</name>
+         <img>img/samsung_galaxybook2.png</img>
+        <specs>
+            <storage>128 ГБ UFS</storage>
+            <ram>4 ГБ</ram>
+            <screen_size>14.0 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>1920×1080</resolution>
+            <screen_type>IPS</screen_type>
+            <cpu_model>Snapdragon 7c+ Gen 3</cpu_model>
+            <cpu_freq>2400 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="xiaomi_redmibook_15">
+        <name>Xiaomi Redmibook 15</name>
+        <img>img/xiaomi_redmibook15.png</img>
+        <specs>
+            <storage>512 ГБ SSD</storage>
+            <ram>16 ГБ</ram>
+            <screen_size>15.6 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>1920×1080</resolution>
+            <screen_type>IPS</screen_type>
+            <cpu_model>Intel Core i5-11300H</cpu_model>
+            <cpu_freq>3100 МГц</cpu_freq>
+            <cores>4</cores>
+        </specs>
+    </product>
+
+    <product id="xiaomi_book_air_13">
+        <name>Xiaomi Book Air 13</name>
+        <img>img/xiaomi_redmibookair.png</img>
+        <specs>
+            <storage>512 ГБ SSD</storage>
+            <ram>16 ГБ</ram>
+            <screen_size>13.3 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>2880×1800</resolution>
+            <screen_type>OLED</screen_type>
+            <cpu_model>Intel Core i5-1230U</cpu_model>
+            <cpu_freq>4400 МГц</cpu_freq>
+            <cores>10</cores>
+        </specs>
+    </product>
+
+    <product id="ipad_pro_m2">
+        <name>Apple iPad Pro M2</name>
+        <img>img/Tablet.png</img>
+        <specs>
+            <storage>128/256 ГБ</storage>
+            <ram>8 ГБ</ram>
+            <screen_size>11.0 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>2388×1668</resolution>
+            <screen_type>Liquid Retina</screen_type>
+            <cpu_model>Apple M2</cpu_model>
+            <cpu_freq>3490 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="ipad_air">
+        <name>Apple iPad Air</name>
+        <img>img/ipad_air.png</img>
+        <specs>
+            <storage>64/256 ГБ</storage>
+            <ram>8 ГБ</ram>
+            <screen_size>10.9 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>2360×1640</resolution>
+            <screen_type>Liquid Retina</screen_type>
+            <cpu_model>Apple M1</cpu_model>
+            <cpu_freq>3200 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="tab_s9">
+        <name>Samsung Tab S9</name>
+        <img>img/galaxy_tabs9.png</img>
+        <specs>
+            <storage>128/256 ГБ</storage>
+            <ram>8/12 ГБ</ram>
+            <screen_size>11.0 ″</screen_size>
+            <refresh_rate>120 Гц</refresh_rate>
+            <resolution>2560×1600</resolution>
+            <screen_type>Dynamic AMOLED 2X</screen_type>
+            <cpu_model>Snapdragon 8 Gen 2</cpu_model>
+            <cpu_freq>3360 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="tab_a8">
+        <name>Samsung Tab A8</name>
+        <img>img/galaxy_taba8.png</img>
+        <specs>
+            <storage>32/64 ГБ</storage>
+            <ram>3/4 ГБ</ram>
+            <screen_size>10.5 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>1920×1200</resolution>
+            <screen_type>TFT</screen_type>
+            <cpu_model>Unisoc Tiger T618</cpu_model>
+            <cpu_freq>2000 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="xiaomi_pad6">
+        <name>Xiaomi Pad 6</name>
+        <img>img/xiaomi_pad6.png</img>
+        <specs>
+            <storage>128/256 ГБ</storage>
+            <ram>6/8 ГБ</ram>
+            <screen_size>11.0 ″</screen_size>
+            <refresh_rate>144 Гц</refresh_rate>
+            <resolution>2880×1800</resolution>
+            <screen_type>IPS</screen_type>
+            <cpu_model>Snapdragon 870</cpu_model>
+            <cpu_freq>3200 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="redmi_pad_se">
+        <name>Xiaomi Redmi Pad SE</name>
+        <img>img/xiaomi_padse.png</img>
+        <specs>
+            <storage>128 ГБ</storage>
+            <ram>4/8 ГБ</ram>
+            <screen_size>11.0 ″</screen_size>
+            <refresh_rate>90 Гц</refresh_rate>
+            <resolution>1920×1200</resolution>
+            <screen_type>IPS</screen_type>
+            <cpu_model>Snapdragon 680</cpu_model>
+            <cpu_freq>2400 МГц</cpu_freq>
+            <cores>8</cores>
+        </specs>
+    </product>
+
+    <product id="watch_s9">
+        <name>Apple Watch Series 9</name>
+         <img>img/Smartwatch.png</img>
+        <specs>
+            <storage>64 ГБ</storage>
+            <ram>2 ГБ</ram>
+            <screen_size>1.9 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>484×396</resolution>
+            <screen_type>OLED (Retina)</screen_type>
+            <cpu_model>Apple S9</cpu_model>
+            <cpu_freq>500 МГц</cpu_freq>
+            <cores>2</cores>
+        </specs>
+    </product>
+
+    <product id="watch_se">
+        <name>Apple Watch SE</name>
+         <img>img/apple_watchse.png</img>
+        <specs>
+            <storage>32 ГБ</storage>
+            <ram>1 ГБ</ram>
+            <screen_size>1.78 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>448×368</resolution>
+            <screen_type>OLED (Retina)</screen_type>
+            <cpu_model>Apple S8</cpu_model>
+            <cpu_freq>500 МГц</cpu_freq>
+            <cores>2</cores>
+        </specs>
+    </product>
+
+    <product id="watch6">
+        <name>Samsung Watch6</name>
+        <img>img/samsung_galaxywatch6.png</img>
+        <specs>
+            <storage>16 ГБ</storage>
+            <ram>2 ГБ</ram>
+            <screen_size>1.5 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>480×480</resolution>
+            <screen_type>Super AMOLED</screen_type>
+            <cpu_model>Exynos W930</cpu_model>
+            <cpu_freq>1400 МГц</cpu_freq>
+            <cores>2</cores>
+        </specs>
+    </product>
+
+    <product id="watch5pro">
+        <name>Samsung Watch5</name>
+        <img>img/samsung_galaxywatch5.png</img>
+        <specs>
+            <storage>16 ГБ</storage>
+            <ram>1.5 ГБ</ram>
+            <screen_size>1.4 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>450×450</resolution>
+            <screen_type>Super AMOLED</screen_type>
+            <cpu_model>Exynos W920</cpu_model>
+            <cpu_freq>1180 МГц</cpu_freq>
+            <cores>2</cores>
+        </specs>
+    </product>
+
+    <product id="watch_s3">
+        <name>Xiaomi Watch S3</name>
+        <img>img/xiaomi_watchs3.png</img>
+        <specs>
+            <storage>4 ГБ</storage>
+            <ram>0.5 ГБ</ram>
+            <screen_size>1.43 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>466×466</resolution>
+            <screen_type>AMOLED</screen_type>
+            <cpu_model>Proprietary</cpu_model>
+            <cpu_freq>400 МГц</cpu_freq>
+            <cores>1</cores>
+        </specs>
+    </product>
+
+    <product id="redmi_watch4">
+        <name>Xiaomi Redmi Watch 4</name>
+        <img>img/xiaomi_watch4.png</img>
+        <specs>
+            <storage>2 ГБ</storage>
+            <ram>0.2 ГБ</ram>
+            <screen_size>1.97 ″</screen_size>
+            <refresh_rate>60 Гц</refresh_rate>
+            <resolution>450×390</resolution>
+            <screen_type>AMOLED</screen_type>
+            <cpu_model>Proprietary</cpu_model>
+            <cpu_freq>200 МГц</cpu_freq>
+            <cores>1</cores>
+        </specs>
+    </product>
+</products_details>
+

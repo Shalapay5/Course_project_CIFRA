@@ -1,0 +1,135 @@
+@media (max-width: 768px) {
+    .models{
+    gap: 50px;
+    
+    a{
+        border-radius: 25px;
+        p{
+            font-size: 11px;
+            text-align: center;
+        }
+    }
+}
+
+.goods{
+    height: 400px;
+    gap: 20px;
+    padding-bottom: 30px;
+    h1{
+    
+        font-size: 25px;
+        height: 54px;
+    }
+    .assort{
+        gap: 20px;
+        padding: 0 40px;
+        .card{
+            div{
+            border-radius: 25px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
+
+article{
+    gap: 5px;
+    .top{
+        font-size: 30px;
+    }
+
+    section {
+
+    div {
+        .number {
+            font-size: clamp(40px, 3vw, 128px);
+        }
+        
+        p {
+            font-size: clamp(15px, 2vw, 48px);
+        }
+    }
+}
+}
+}
+
+
+@media (max-width: 426px){
+
+.models{
+    flex-direction: column;
+    gap: 30px;
+    
+   a{
+        max-width: 300px;
+        width: 100%;
+        flex-direction: column;
+        flex: 0 1 200px;
+    }
+}
+
+.goods{
+    
+    gap: 20px;
+    clip-path:none;
+    height: auto;
+    min-height: min-content;
+    h1{
+        padding-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+
+    .assort {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start; 
+        gap: 20px; 
+        padding: 0 20px;
+
+        .card {
+            flex-direction: column;
+            width: calc(50% - 10px); 
+            max-width: 170px;
+            flex: 0 0 auto;
+
+            div {
+                width: 100%;
+                border-radius: 40px;
+            }
+            p {
+                display: none; 
+            }
+        }
+    }
+}
+
+article{
+    gap: 15px;
+    .top{
+        font-size: 38px;
+        padding-left: 10px;
+    }
+
+    section {
+    flex-direction: column;
+    gap: 25px;   
+
+    div {
+        flex: 0 1 auto; 
+
+        .number {
+            font-size: 96px;
+        }
+        
+        p {
+            font-size: 36px;
+        }
+    }
+    }
+}
+}
+

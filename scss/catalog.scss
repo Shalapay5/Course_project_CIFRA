@@ -1,0 +1,224 @@
+$bg-colour: #F3EDED;
+$bg-colour-none: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sansation', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.filtre{
+    margin: 0 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 50px;
+    border: $bg-colour solid 3px;
+    border-radius: 12px;
+
+    .pmain{
+        font-size: 24px;
+    }
+
+    .cost-model{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        p{
+            font-size: 20px;
+        }
+
+        .cost-up{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1;
+
+            .cost-filtre{
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+                @media (max-width: 768px) {
+                    flex-direction: column; 
+                    width: 100%;
+                }
+                input{
+                    border: 0;
+                    display: flex;
+                    flex: 1;
+                    background: $bg-colour;
+                    height: 44px;
+                    border-radius: 8px;
+                    align-items: center;
+                    padding-left: 5px;
+                     @media (max-width: 768px) {
+                    flex: none;
+                }
+
+                }
+            }
+            
+           
+               
+            .model{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .checksmodel{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        div{
+                            gap: 4px;
+                            display: flex;
+                            flex-direction: row;
+
+                            p{
+                            font-size: 16px;
+                            }
+
+                            input{
+                                accent-color: #000;
+                            }
+
+                        }
+                    }
+
+            }
+        
+        }
+    }
+}
+
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 40px 0;
+  margin: 0 30px;
+
+  article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background: $bg-colour;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 1320px;
+    height: 200px;
+
+
+
+    img{
+        height: 200px;
+        width: 200px;
+        object-fit: contain;
+    }
+
+  }
+   
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+    flex: 1;
+    height: 100%;
+    .name-cost{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-left: 20px;
+    flex: 1;
+    text-align: center;
+            
+}
+
+.cost{
+    color: #000;
+    text-decoration: none;
+    align-self: center;
+    font-size: 20px;
+    padding-left: 20px;
+        
+}
+.mobile-img{
+    display: none;
+}
+
+.specs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,26px);
+    row-gap: 10px;
+    column-gap: 100px;
+    justify-items: center;
+    align-items: center;
+    p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+.more{
+    margin-right: 25px;
+    display: flex;
+    height: 75px;
+    width: 180px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+}
+
+
+@import "header";
+@import "footer";
+@import "catalogmedia";
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+$bg-colour: #F3EDED;
+$bg-colour-none: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sansation', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 24px;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    p{
+        &:first-child{
+            font-size: 2em;
+            max-width: 786px;
+            font-weight: bold;
+        }
+        &:last-child{
+            font-size: 1em;
+            max-width: 1153px
+        }
+    }
+}
+.about_numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cifra_today{
+    font-size: 2em;
+    font-weight: bold;
+}
+.today{
+    display: flex;
+    flex-flow: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background: $bg-colour;
+    border-radius: 30px;
+    height: 223px;
+    padding:0 10px;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        p{
+            &:first-child{
+                font-size: 3em;
+                font-weight: bold;
+            }
+            &:last-child{
+                font-size: 1em;
+                text-align: center
+            }
+        }
+    }
+}
+
+.for_smbd{
+    display: grid;
+    row-gap: 40px;
+    padding:0px  clamp(0px, 10vw, 200px);
+    grid-template-columns: repeat(2,1fr);
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 1em;
+            margin-left:25px;
+
+        }
+    }
+
+}
+
+.call_us{ 
+    display: flex;
+    flex-flow: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background: $bg-colour;
+    border-radius: 30px;
+    min-height: 223px;
+    padding: 0 50px 0 20px;
+    .text_box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p{
+            &:first-child{
+                max-width: 550px;
+                font-size: 2em;
+                font-weight: bold;
+            }
+            &:last-child{
+                max-width: 775px;
+                font-size: 1em;
+            }
+        }
+    }
+    .number{
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+}
+@import "footer";
+@import "header";
+@import"aboutmedia";
